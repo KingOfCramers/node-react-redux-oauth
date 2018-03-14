@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node server.js" // This is the command for Heroku
+    "start": "node server.js"
   },
-  "engines" : { // These engines specific to this project.
+  "engines" : {
     "node" : "8.1.1",
     "npm" : "5.0.3"
   },
