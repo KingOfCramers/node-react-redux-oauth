@@ -12,7 +12,12 @@ module.exports = app => {
     );
 
     // Passport will see the code included in the URL, and will not kick into the OAuth flow.
-    app.get("/auth/google/callback", passport.authenticate("google"));
+    app.get("/auth/google/callback", function(){
+
+        res.send("Added.")
+        passport.authenticate("google");
+
+    });
 
     app.get("/api/logout", (req,res) => {
         req.logout(); // Kills the cookie.
