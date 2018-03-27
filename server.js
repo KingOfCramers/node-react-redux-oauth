@@ -9,7 +9,6 @@ const app = express();
 
 // Enable cookies inside our application.
 
-sdf9h0pnamSD090jdosfihdf
 app.use(
 	cookieSession({
 		maxAge: 30 * 24 * 60 * 60 * 1000,
