@@ -32,4 +32,4 @@ app.listen(PORT);
 
 //*** REMEMBER TO ADD A "engines" object, with a node 8.1.1, npm 5.0.3 ***\\
 
-console.log("Server running...");
+console.log("Server running on " + PORT);

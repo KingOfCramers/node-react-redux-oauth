@@ -23,10 +23,6 @@ module.exports = app => {
         res.send(req.user);
     });
 
-    app.get("/", (req, res) => {
-        res.send("Success.");
-        console.log("Homepage.");
-    });
 };
 
 // We're exporting this as a function, which accepts the "app" as an argument.
